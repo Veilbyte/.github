@@ -1,0 +1,20 @@
+name: Документация / Documentation
+description: Сообщить о неточности или предложить улучшение документации
+title: "[Docs]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Страница или файл / Page or file
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что непонятно или неверно / What is unclear or incorrect
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое изменение / Suggested change

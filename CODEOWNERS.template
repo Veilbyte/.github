@@ -1,0 +1,14 @@
+# Copy this file to .github/CODEOWNERS in EACH repository that needs code-owner reviews.
+# The CODEOWNERS file in Veilbyte/.github protects only that repository; it is not inherited.
+# Replace the owner username and team slug as needed.
+# Teams listed as code owners must be visible and have explicit Write access to the repository.
+
+* @Veilbyte/maintainers
+
+/.github/ @Onmaynec
+/SECURITY.md @Onmaynec
+/CONTRIBUTOR_LICENSE_AGREEMENT.md @Onmaynec
+/LICENSE* @Onmaynec
+/BRAND_POLICY.md @Onmaynec
+/GOVERNANCE.md @Onmaynec
+/ORGANIZATION_POLICY.md @Onmaynec

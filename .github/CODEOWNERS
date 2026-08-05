@@ -1,0 +1,13 @@
+# Veilbyte/.github code owners
+# This repository is currently maintained by the organization owner.
+
+* @Onmaynec
+
+/.github/ @Onmaynec
+/profile/ @Onmaynec
+/SECURITY.md @Onmaynec
+/CONTRIBUTOR_LICENSE_AGREEMENT.md @Onmaynec
+/LICENSE* @Onmaynec
+/BRAND_POLICY.md @Onmaynec
+/GOVERNANCE.md @Onmaynec
+/ORGANIZATION_POLICY.md @Onmaynec
