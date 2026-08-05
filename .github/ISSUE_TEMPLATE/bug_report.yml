@@ -1,0 +1,62 @@
+name: Ошибка / Bug report
+description: Сообщить о воспроизводимой ошибке / Report a reproducible bug
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Не публикуйте уязвимости и чувствительные данные. Используйте SECURITY.md.
+        Do not disclose vulnerabilities or sensitive data. Follow SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Версия / Version
+      placeholder: "1.2.3 / commit SHA"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Окружение / Environment
+      placeholder: "OS, architecture, runtime, browser/device"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание / Description
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения / Reproduction steps
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый результат / Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактический результат / Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Очищенные логи / Sanitized logs
+      render: shell
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Подтверждения / Confirmations
+      options:
+        - label: Я проверил существующие Issues / I searched existing Issues
+          required: true
+        - label: В данных нет секретов и персональной информации / No secrets or personal data are included
+          required: true
