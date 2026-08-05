@@ -1,0 +1,16 @@
+name: Вопрос / Question
+description: Задать технический вопрос / Ask a technical question
+title: "[Question]: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Вопрос / Question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст / Context
+    validations:
+      required: true
