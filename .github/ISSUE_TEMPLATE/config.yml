@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Обсуждения / Discussions
+    url: https://github.com/orgs/Veilbyte/discussions
+    about: Вопросы, идеи и общая поддержка / Questions, ideas, and general support
+  - name: Безопасность / Security
+    url: https://github.com/Veilbyte/.github/security/policy
+    about: Не публикуйте уязвимости в Issues / Do not disclose vulnerabilities in Issues
