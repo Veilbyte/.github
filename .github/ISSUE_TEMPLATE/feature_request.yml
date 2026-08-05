@@ -1,0 +1,35 @@
+name: Новая функция / Feature request
+description: Предложить улучшение / Propose an improvement
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема / Problem
+      description: Какую проблему пользователя решает предложение?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение / Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативы / Alternatives
+  - type: textarea
+    id: risks
+    attributes:
+      label: Риски и влияние / Risks and impact
+      description: Privacy, security, network, compatibility, maintenance.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Подтверждения / Confirmations
+      options:
+        - label: Я проверил существующие Issues и Discussions / I searched existing Issues and Discussions
+          required: true
+        - label: Предложение соответствует Responsible Use Policy / The request follows the Responsible Use Policy
+          required: true
